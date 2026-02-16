@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("./images/image\ 1\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    background-color: black;
+}
+
+header {
+    display: flex;
+}
+
+.menu1 {
+    display: flex;
+    gap: 60px;
+    margin-left: 40px;
+    margin-top: 20px;
+    align-items: center;
+    color: white;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    background-color: #009FF5B5;
+    border-radius: 40px;
+    border: 0px;
+    padding: 10px;
+    color: white;
+    box-shadow: 0px 4px 4px #DAD3FF;
+}
+
+button:hover {
+    background-color: aqua;
+}
+
+.menu2 {
+    margin-left: 350px;
+    margin-top: 25px;
+}
+
+.b2 {
+    background-color: black;
+}
+
+.b2:hover {
+    background-color: white;
+    color: black;
+}
+
+.mavzu {
+    padding: 20px;
+    background-color: #FFC611;
+    border: 10px solid #5A5555;
+    font-size: 20px;
+    font-weight: bold;
+    width: 400px;
+    text-align: center;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 200px;
+    box-shadow: 0px 4px 4px #0047FF;
+}
+
+.qator1 {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 90px;
+}
+
+.box {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    border-radius: 20px;
+    align-items: center;
+    box-shadow: 8px 7px 20px #FFFFFF;
+}
+
+.mavzu2 {
+    margin-left: 630px;
+    margin-top: 300px;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    border-radius: 30px;
+    width: 300px;
+    box-shadow: 0px 4px 4px #FFC200;
+    text-align: center;
+}
+
+.qator2 {
+    display: flex;
+    justify-content: center;
+    gap: 190px;
+    margin-top: 50px;
+}
+
+.malumot1 {
+    color: white;
+    font-size: 30px;
+}
+
+.qator3 {
+    display: flex;
+    justify-content: center;
+    gap: 190px;
+    margin-top: 150px;
+}
+
+.malumot2 {
+    color: white;
+    font-size: 30px;
+}
+
+.b3 {
+    margin-left: 1000px;
+    padding: 30px;
+    font-size: 30px;
+    text-align: center;
+    background-color: grey;
+    margin-top: 50px;
+    box-shadow: 0px 7px 12px #FFFFFF;
+}
+
+.b3:hover {
+    background-color: #FFC611;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1000px;
+    height: 100px;
+    background-color: #FFC611;
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+}
+
+.logo2 {
+    display: flex;
+    gap: 80px;
+}
